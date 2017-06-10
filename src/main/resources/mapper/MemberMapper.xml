@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhch.mapper.MemberMapper">
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.Member">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="age" jdbcType="TINYINT" property="age" />
+    <result column="id_card" jdbcType="VARCHAR" property="idCard" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.Member">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="age" jdbcType="TINYINT" property="age" />
+    <result column="id_card" jdbcType="VARCHAR" property="idCard" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="grade" jdbcType="VARCHAR" property="grade" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="inputer" jdbcType="VARCHAR" property="inputer" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.Member">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="age" jdbcType="TINYINT" property="age" />
+    <result column="idCard" jdbcType="VARCHAR" property="idcard" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="grade" jdbcType="VARCHAR" property="grade" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="in_puter" jdbcType="VARCHAR" property="inPuter" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.Member">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="age" jdbcType="TINYINT" property="age" />
+    <result column="idcard" jdbcType="VARCHAR" property="idcard" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="grade" jdbcType="VARCHAR" property="grade" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="inputer" jdbcType="VARCHAR" property="inputer" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+</mapper>

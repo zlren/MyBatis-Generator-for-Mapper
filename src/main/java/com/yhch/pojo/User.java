@@ -1,6 +1,5 @@
-package lab.zlren.demo.pojo;
+package com.yhch.pojo;
 
-import java.util.Date;
 import javax.persistence.*;
 
 public class User {
@@ -12,7 +11,9 @@ public class User {
 
     private String password;
 
-    private Date update;
+    private String role;
+
+    private String phone;
 
     /**
      * @return id
@@ -57,16 +58,30 @@ public class User {
     }
 
     /**
-     * @return update
+     * @return role
      */
-    public Date getUpdate() {
-        return update;
+    public String getRole() {
+        return role;
     }
 
     /**
-     * @param update
+     * @param role
      */
-    public void setUpdate(Date update) {
-        this.update = update;
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    /**
+     * @return phone
+     */
+    public String getPhone() {
+        return phone;
+    }
+
+    /**
+     * @param phone
+     */
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

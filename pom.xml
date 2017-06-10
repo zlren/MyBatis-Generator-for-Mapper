@@ -16,15 +16,15 @@
 
 
         <!--修改这里-->
-        <targetModelPackage>lab.zlren.demo.pojo</targetModelPackage>
-        <targetMapperPackage>lab.zlren.demo.mapper</targetMapperPackage>
+        <targetModelPackage>com.yhch.pojo</targetModelPackage>
+        <targetMapperPackage>com.yhch.mapper</targetMapperPackage>
 
         <!--  XML生成路径  -->
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <targetXMLPackage>mapper</targetXMLPackage>
         <!--  依赖版本  -->
         <mapper.version>3.3.9</mapper.version>
-        <mysql.version>5.1.29</mysql.version>
+        <mysql.version>5.1.39</mysql.version>
     </properties>
 
     <dependencies>

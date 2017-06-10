@@ -1,6 +1,6 @@
-package lab.zlren.demo.mapper;
+package com.yhch.mapper;
 
-import lab.zlren.demo.pojo.User;
+import com.yhch.pojo.User;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface UserMapper extends Mapper<User> {
