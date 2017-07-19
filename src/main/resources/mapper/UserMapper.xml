@@ -6,6 +6,459 @@
       WARNING - @mbg.generated
     -->
     <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="member_num" jdbcType="VARCHAR" property="memberNum" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+    <result column="valid" jdbcType="DATE" property="valid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="member_num" jdbcType="VARCHAR" property="memberNum" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+    <result column="valid" jdbcType="DATE" property="valid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="member_num" jdbcType="VARCHAR" property="memberNum" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+    <result column="valid" jdbcType="DATE" property="valid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="memberNum" jdbcType="VARCHAR" property="membernum" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+    <result column="valid" jdbcType="DATE" property="valid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="memberNum" jdbcType="VARCHAR" property="membernum" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+    <result column="valid" jdbcType="TIMESTAMP" property="valid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="memberNum" jdbcType="VARCHAR" property="membernum" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+    <result column="valid" jdbcType="TIMESTAMP" property="valid" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="INTEGER" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="staff_id" jdbcType="VARCHAR" property="staffId" />
+    <result column="staff_mgr_id" jdbcType="VARCHAR" property="staffMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="adviser_id" jdbcType="VARCHAR" property="adviserId" />
+    <result column="advise_mgr_id" jdbcType="VARCHAR" property="adviseMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="adviser_id" jdbcType="INTEGER" property="adviserId" />
+    <result column="advise_mgr_id" jdbcType="INTEGER" property="adviseMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="adviser_id" jdbcType="INTEGER" property="adviserId" />
+    <result column="advise_mgr_id" jdbcType="INTEGER" property="adviseMgrId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
     <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="role" jdbcType="VARCHAR" property="role" />

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by zlren on 2017/3/13.
  */
-public class MybatisGeneator {
+public class MybatisGenerator {
 
     public static void main(String[] args) throws Exception {
         List<String> warnings = new ArrayList<String>();

@@ -1,5 +1,6 @@
 package com.yhch.pojo;
 
+import java.util.Date;
 import javax.persistence.*;
 
 public class User {
@@ -7,13 +8,26 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name = "member_num")
+    private String memberNum;
+
     private String username;
 
     private String password;
 
+    private String avatar;
+
+    private String name;
+
     private String role;
 
-    private String phone;
+    @Column(name = "staff_id")
+    private Integer staffId;
+
+    @Column(name = "staff_mgr_id")
+    private Integer staffMgrId;
+
+    private Date valid;
 
     /**
      * @return id
@@ -27,6 +41,20 @@ public class User {
      */
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    /**
+     * @return member_num
+     */
+    public String getMemberNum() {
+        return memberNum;
+    }
+
+    /**
+     * @param memberNum
+     */
+    public void setMemberNum(String memberNum) {
+        this.memberNum = memberNum;
     }
 
     /**
@@ -58,6 +86,34 @@ public class User {
     }
 
     /**
+     * @return avatar
+     */
+    public String getAvatar() {
+        return avatar;
+    }
+
+    /**
+     * @param avatar
+     */
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
+    /**
+     * @return name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
      * @return role
      */
     public String getRole() {
@@ -72,16 +128,44 @@ public class User {
     }
 
     /**
-     * @return phone
+     * @return staff_id
      */
-    public String getPhone() {
-        return phone;
+    public Integer getStaffId() {
+        return staffId;
     }
 
     /**
-     * @param phone
+     * @param staffId
      */
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setStaffId(Integer staffId) {
+        this.staffId = staffId;
+    }
+
+    /**
+     * @return staff_mgr_id
+     */
+    public Integer getStaffMgrId() {
+        return staffMgrId;
+    }
+
+    /**
+     * @param staffMgrId
+     */
+    public void setStaffMgrId(Integer staffMgrId) {
+        this.staffMgrId = staffMgrId;
+    }
+
+    /**
+     * @return valid
+     */
+    public Date getValid() {
+        return valid;
+    }
+
+    /**
+     * @param valid
+     */
+    public void setValid(Date valid) {
+        this.valid = valid;
     }
 }

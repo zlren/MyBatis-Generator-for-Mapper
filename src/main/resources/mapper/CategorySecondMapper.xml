@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhch.mapper.CategorySecondMapper">
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategorySecond">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="first_id" jdbcType="INTEGER" property="firstId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhch.mapper.CategoryThirdMapper">
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="en_short" jdbcType="VARCHAR" property="enShort" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.CategoryThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="system_category" jdbcType="VARCHAR" property="systemCategory" />
+    <result column="reference_value" jdbcType="VARCHAR" property="referenceValue" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+  </resultMap>
+</mapper>

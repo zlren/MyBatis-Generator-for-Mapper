@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhch.mapper.ResultOriginMapper">
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="upload_time" jdbcType="DATE" property="uploadTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="upload_time" jdbcType="DATE" property="uploadTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="input_time" jdbcType="DATE" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="input_time" jdbcType="DATE" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="input_time" jdbcType="DATE" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="input_time" jdbcType="TIMESTAMP" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="path" jdbcType="LONGVARCHAR" property="path" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="second_name" jdbcType="VARCHAR" property="secondName" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="inputer_name" jdbcType="VARCHAR" property="inputerName" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="second_name" jdbcType="VARCHAR" property="secondName" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="inputer_name" jdbcType="VARCHAR" property="inputerName" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="second_name" jdbcType="VARCHAR" property="secondName" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="inputer_name" jdbcType="VARCHAR" property="inputerName" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="second_name" jdbcType="VARCHAR" property="secondName" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="uploader_name" jdbcType="VARCHAR" property="uploaderName" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="checker_name" jdbcType="VARCHAR" property="checkerName" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="inputer_name" jdbcType="VARCHAR" property="inputerName" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultOrigin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="path" jdbcType="VARCHAR" property="path" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="uploader_id" jdbcType="INTEGER" property="uploaderId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="is_pass" jdbcType="VARCHAR" property="isPass" />
+    <result column="is_input" jdbcType="VARCHAR" property="isInput" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+  </resultMap>
+</mapper>

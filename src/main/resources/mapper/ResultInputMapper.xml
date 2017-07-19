@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yhch.mapper.ResultInputMapper">
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="upload_time" jdbcType="DATE" property="uploadTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="upload_time" jdbcType="DATE" property="uploadTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="input_time" jdbcType="DATE" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="input_time" jdbcType="DATE" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="input_time" jdbcType="DATE" property="inputTime" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="input_time" jdbcType="TIMESTAMP" property="inputTime" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="hospital" jdbcType="VARCHAR" property="hospital" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="inputer_id" jdbcType="INTEGER" property="inputerId" />
+    <result column="checker_id" jdbcType="INTEGER" property="checkerId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="second_id" jdbcType="INTEGER" property="secondId" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.yhch.pojo.ResultInput">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="origin_id" jdbcType="INTEGER" property="originId" />
+    <result column="third_id" jdbcType="INTEGER" property="thirdId" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+  </resultMap>
+</mapper>
